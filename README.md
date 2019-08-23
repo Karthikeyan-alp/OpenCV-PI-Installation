@@ -18,10 +18,10 @@
 
 ### Booting the OS
 
-<br> <br> The Initial step is to boot the raspbian os in the Memory card.</br>
+ The Initial step is to boot the raspbian os in the Memory card.</br>
 
 Raspbian os link: http://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-04-09)/</br>
-Etcher for writing the os : https://www.balena.io/etcher/ 
+Etcher for writing the os : https://www.balena.io/etcher/ </br>
 Sd card Formatter : https://www.sdcard.org/downloads/formatter/
 
 
