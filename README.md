@@ -2,7 +2,7 @@
 
 **GETTING STARTED**
         
-        <br>In this project we can see how to install an opencv in raspberry pi.A step by step approach is given to install the opencv and its dependent packages.</br>
+   <br>In this project we can see how to install an opencv in raspberry pi.A step by step approach is given to install the opencv and its dependent packages.</br>
 
 
 
