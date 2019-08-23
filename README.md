@@ -177,20 +177,96 @@ To Expand the File system(space) for Installing the opencv
    In this step we are allocating our SD memory space as Ram.Run this code.
    
    
+        sudo nano /etc/dphys-swapfile
+        
+  After this code go to the place of "SWAP SIZE=100" and uncomment this and put the new command.
+  
+  
+        CONF_SWAPSIZE=1024
+        
+        
+  Now we are Restarting the Ram for the process.
+   
+       sudo /etc/init.d/dphys-swapfile stop
+       
+       sudo /etc/init.d/dphys-swapfile start
+       
+   The following command will start installing the opencv.The command which you take around ##1hrs 30 Minutes to compile.
+   
+   
+        make -j4
+        
+        
+   After this try to install the following commands
+   
+       sudo make install
+       
+       sudo ldconfig
+       
+   
+   ### FINAL INSTALLATION OF OPENCV
+   
+   Now you try this code to find the Number of package installed
+   
+       ls -l /usr/local/lib/python3.5/site-packages/
+       
+   This will result something like this...
+       
+       total 3656
 
-
-
-
-**Installing opencv for Image processing**
+       -rw-r--r-- 1 root staff 1895932 Aug 20 21:51 cv2.cpython-34m.so
+       
+  Now we want to make some changes to packages by running this code.
+  
+        cd /usr/local/lib/python3.5/site-packages/
+        
+        sudo mv cv2.cpython-35m-arm-linux-gnueabihf.so cv2.so
+        
+        cd ~/.virtualenvs/cv/lib/python3.5/site-packages/
+        
+        ln -s /usr/local/lib/python3.5/site-packages/cv2.so cv2.so
+  
+  
+  ### CHECKING OPENCV
+  
+       source ~/.profile 
+       
+       workon cv
+       
+       python3
+       
+       import cv2
+       
+       cv2.__version__
+   
+   
+  Run this code will give the output as follows
+   
+      '3.3.0'
+      
+      
+      
+ ##THATS ALL WE HAVE COMPLETED INSTALLING OPEN CV
+      
+ ###RESIZE THE SWAP
  
+      sudo nano /etc/dphys-swapfile
+      
+ In the code put #CONF_SWAPSIZE=1024
+
+ put 
+        CONF_SWAPSIZE=100
+  
  
- STEPS TO FOLLOW FOR INSTALLING OPENCV
+Rerun the Swap size
+
+        sudo /etc/init.d/dphys-swapfile stop
+        
+        sudo /etc/init.d/dphys-swapfile start
+        
+        
+##CONCLUSION
+
+That's all we wrap up the things.we sucesfully installed the opencv in raspberry pi.
+  
  
-<br> -Expanding the Filesystem.</br>
- -Installing the dependent package for Opencv.</br>
- -Download the Opencv and Opencv-contrib Zip file.</br>
- -Installing a Virtual Environment for Python.</br>
- -Installing the numpy.</br>
- -Installing the opencv.</br>
- -Change the Swap size.</br>
- -Testing the Opencv and its Dependent package.</br>
