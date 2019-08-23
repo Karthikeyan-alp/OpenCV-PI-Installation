@@ -37,6 +37,16 @@ To Expand the File system(space) for Installing the opencv
    If it not Rebooting.Type the command in Terminal.
    
       sudo reboot
+      
+      
+### UPGRADING OUR OS
+
+   we can ugrade our os upto date by using the following commands.
+   
+   
+      sudo apt-get update
+      
+      sudo apt-get upgrade
 
    
 
