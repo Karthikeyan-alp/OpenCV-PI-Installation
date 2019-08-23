@@ -31,6 +31,12 @@ Sd card Formatter : https://www.sdcard.org/downloads/formatter/
 To Expand the File system(space) for Installing the opencv
 
      sudo raspi-config
+     
+   select the "Advance option" and click Enter.Click the "Expand file system" and press Enter.Then move the Pointer to finish by Right arrow keys and click Ok.It will reboot the os .
+   
+   If it not Rebooting.Type the command in Terminal.
+   
+      sudo reboot
 
    
 
