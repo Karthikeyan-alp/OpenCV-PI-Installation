@@ -22,6 +22,7 @@
 
 Raspbian os link: http://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-04-09)/</br>
 Etcher for writing the os : https://www.balena.io/etcher/ 
+Sd card Formatter : https://www.sdcard.org/downloads/formatter/
 
 
 
