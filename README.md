@@ -246,9 +246,9 @@ To Expand the File system(space) for Installing the opencv
       
       
       
- ##THATS ALL WE HAVE COMPLETED INSTALLING OPEN CV
+ ## THATS ALL WE HAVE COMPLETED INSTALLING OPEN CV
       
- ###RESIZE THE SWAP
+ ### RESIZE THE SWAP
  
       sudo nano /etc/dphys-swapfile
       
