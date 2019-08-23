@@ -28,7 +28,9 @@ Sd card Formatter : https://www.sdcard.org/downloads/formatter/
 
 ### Expanding the File System
 
-<br> <br> <br> To Expand the File system(space) for Installing the opencv
+To Expand the File system(space) for Installing the opencv
+
+    <br> sudo raspi-config</br>
 
    
 
