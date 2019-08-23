@@ -151,8 +151,30 @@ To Expand the File system(space) for Installing the opencv
            
    ### INSTALLING A OPENCV
    
+   Now we are going to install a Opencv on pi.
    
    
+            workon cv
+            
+            cd ~/opencv-3.3.0/
+            
+   Creating a new directory called build inside opencv -3.3.0 directory
+   
+             mkdir build
+             
+             cd build
+             
+             cmake -D CMAKE_BUILD_TYPE=RELEASE \
+                   -D CMAKE_INSTALL_PREFIX=/usr/local \
+                   -D INSTALL_PYTHON_EXAMPLES=ON \
+                   -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.3.0/modules \
+                   -D BUILD_EXAMPLES=ON ..
+                   
+   Now you can check Python3 interpreter showing cv path.That's all we came to the End.
+   
+   ### CONFIGURE THE SWAP SIZE
+   
+   In this step we are allocating our SD memory space as Ram.Run this code.
    
    
 
