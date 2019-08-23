@@ -8,6 +8,12 @@
    
    
 ## PREREQUISITES
+ 
+   - Raspberry pi 3/3B+/4
+   - Proper Internet connections
+   
+   
+## INSTALLING
 
    
 
