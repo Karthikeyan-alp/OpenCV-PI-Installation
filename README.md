@@ -71,6 +71,90 @@ To Expand the File system(space) for Installing the opencv
       
       sudo apt-get install python2.7-dev python3-dev
    
+   
+   It will take time according to the Internet speed.
+   
+   
+   ### INSTALLING THE OPENCV AND ITS CONTRIB FILE
+   
+       cd
+       
+       wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
+       
+  It will Download the opencv Zip file from the github.
+  
+       wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.3.0.zip
+       
+  It will Download the opencv Contrib Zip file from the github.
+  
+  The Next step is to unzip the files of opencv and opencv contrib
+  
+       unzip opencv.zip
+       
+       unzip opencv_contrib.zip
+       
+   ### INSTALLING PYTHON 3 
+   
+   Python2.7 is going to an end of its life so we are going to use an python3 .
+   
+   <br> Now we are installing a pip package
+   
+         wget https://bootstrap.pypa.io/get-pip.py
+         
+         sudo python3 get-pip.py
+         
+   ### INSTALLING VIRTUAL ENVIRONMENT
+      
+        sudo pip install virtualenv virtualenvwrapper
+        
+        sudo rm -rf ~/.cache/pip
+        
+   Now we want to make some changes to virtual environment source code.write the below code in terminal window.
+         
+        sudo nano ~/.profile
+        
+   The new terminal will open go to the last line
+   
+   
+        # virtualenv and virtualenvwrapper
+          export WORKON_HOME=$HOME/.virtualenvs
+          export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+          source /usr/local/bin/virtualenvwrapper.sh
+          
+   Paste this code at last and press ctrl+X after that press Enter .
+   
+   Now you close the terminal and reopen a new terminal.
+   
+   
+   ### CREATING A NEW PYTHON VIRTUAL ENVIRONMENT
+   
+   
+           mkvirtualenv cv -p python3
+     
+   ### CHECKING THE VIRTUAL ENVIRONMENT
+   
+   
+           cd
+           
+           source ~/.profile
+           
+           workon cv
+           
+   Now check whether you are in an virtual Enviroment.The cv is printed in from of your terminal window.
+   
+   ### INSTALLING A NUMPY 
+   
+   Now we are installing a numpy in our virtual Environment.check whether you are in a cv Environment.
+   
+   
+           pip install numpy
+           
+   ### INSTALLING A OPENCV
+   
+   
+   
+   
+   
 
 
 
