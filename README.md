@@ -265,7 +265,7 @@ Rerun the Swap size
         sudo /etc/init.d/dphys-swapfile start
         
         
-##CONCLUSION
+## CONCLUSION
 
 That's all we wrap up the things.we sucesfully installed the opencv in raspberry pi.
   
