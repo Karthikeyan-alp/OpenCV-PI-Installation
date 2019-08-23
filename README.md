@@ -1,5 +1,5 @@
-# Image-processing-opencv
-Installing opencv for Image processing
+# IMAGE PROCESSING-OPENCV
+**Installing opencv for Image processing**
  
  
  STEPS TO FOLLOW FOR INSTALLING OPENCV
