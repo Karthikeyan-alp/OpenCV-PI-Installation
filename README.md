@@ -11,9 +11,22 @@
  
    - Raspberry pi 3/3B+/4
    - Proper Internet connections
+   - Raspbian stretch os
    
    
 ## INSTALLING
+
+### Booting the OS
+
+<br> <br> The Initial step is to boot the raspbian os in the Memory card.</br>
+
+Raspbian os link: (http://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-04-09/)
+
+
+
+### Expanding the File System
+
+<br> <br> <br> To Expand the File system(space) for Installing the opencv
 
    
 
