@@ -20,8 +20,8 @@
 
 <br> <br> The Initial step is to boot the raspbian os in the Memory card.</br>
 
-Raspbian os link: [http://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-04-09/]
-Etcher for writing the os :[https://www.balena.io/etcher/]
+Raspbian os link: (http://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-04-09)/</br>
+Etcher for writing the os :( https://www.balena.io/etcher/ )
 
 
 
