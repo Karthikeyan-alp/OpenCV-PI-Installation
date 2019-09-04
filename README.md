@@ -179,7 +179,7 @@ To Expand the File system(space) for Installing the opencv
    
         sudo nano /etc/dphys-swapfile
         
-  After this code go to the place of "SWAP SIZE=100" and uncomment this and put the new command.
+  After this code go to the place of "SWAP SIZE=100" and comment this and put the new command.
   
   
         CONF_SWAPSIZE=1024
